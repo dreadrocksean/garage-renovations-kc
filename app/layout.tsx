@@ -19,9 +19,9 @@ import React from "react";
 
 // ✅ Required metadata export in App Router
 export const metadata = {
-  title: "Landon Music - Music website",
+  title: "Garage Renovations KC - Home",
   description:
-    "Landon Music is a great Nextjs Template Music Web designed to accelerate his online presence",
+    "Garage Renovations KC is a great Nextjs SPA designed to showcase a garage renovation business. It features a modern design, responsive layout, and easy navigation.",
 };
 
 // ✅ Required RootLayout type
