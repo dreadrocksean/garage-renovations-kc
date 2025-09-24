@@ -1,17 +1,9 @@
 import React from "react";
 
+import "@/styles/construction.css";
+
 const Construction: React.FC = () => (
-  <div
-    style={{
-      minHeight: "100vh",
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      background: "linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)",
-      fontFamily: "Segoe UI, Arial, sans-serif",
-    }}
-  >
+  <div className="root">
     <div style={{ fontSize: 80, marginBottom: 24 }}>🚧</div>
     <h1
       style={{
@@ -31,7 +23,7 @@ const Construction: React.FC = () => (
         textAlign: "center",
       }}
     >
-      We're working hard to bring you something amazing.
+      At Garage Renovations KC, we're about to bring you something amazing.
       <br />
       Please check back soon!
     </p>
