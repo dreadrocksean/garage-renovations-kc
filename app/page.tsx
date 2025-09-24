@@ -3,6 +3,7 @@ import Header from "@/components/header";
 import Hero from "@/components/hero";
 import Featured from "@/components/featured";
 import UpcomingShows from "@/components/upcoming-shows";
+import Construction from "@/components/Construction";
 // import NewestAlbums from "@/components/newest-albums";
 import FeaturedGrid from "@/components/featured-grid";
 // import FeaturedAlbums from "@/components/featured-albums";
@@ -63,7 +64,7 @@ const Home: FC<HomeProps> = async ({
       <Footer tel={webpage.tel} email={webpage.email} fname={user.fname} />
     </main>
   ) : (
-    <h2>Artist not found</h2>
+    <Construction />
   );
 };
 
